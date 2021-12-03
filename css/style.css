@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@300;400;500;600;700&family=Lato:ital@1&family=Montserrat:wght@300&family=Open+Sans&family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik&display=swap");
+
+body {
+  font-family: Rubik;
+}
+
+/* navbar start */
+.navbar-navition ul li a {
+  margin-left: 40px;
+}
+
+.brand {
+  margin-left: 10px;
+  margin-right: 324px;
+}
+
+.navbar-btn {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 120px;
+  background: #19bce4;
+  padding: 11px 25px;
+}
+
+.navbar-btn:hover {
+  background: #19bce4;
+  border: 2px solid #0691b4;
+}
+
+/* navbar end */
+
+/* fint start */
+.find-header {
+  position: absolute;
+  top: 185px;
+  left: 500px;
+  color: #fff;
+}
+
+.find-img {
+  background: rgba(0, 0, 0, 0.56);
+}
+
+.location {
+  position: absolute;
+  top: 442px;
+  left: 150px;
+  padding: 30px;
+  width: 80%;
+  height: 150px;
+  background-color: #fff;
+}
+
+.location-btn {
+  padding: 20px 95px;
+  background-color: #19bce4;
+}
+
+.location-btn:hover {
+  background-color: #0691b4;
+  border: 2px solid #19bce4;
+}
+
+.location-border:hover {
+  border: 1px solid #19bce4;
+}
+
+/* fint end */
+
+/* about start */
+.about {
+  padding-top: 120px;
+}
+
+.about-header h1 {
+  padding-bottom: 24px;
+}
+
+.about-header p {
+  padding-bottom: 20px;
+}
+
+.about-img {
+  padding-bottom: 30px;
+}
+
+.about-btn {
+  padding: 16px 32px;
+  background-color: #19bce4;
+}
+
+.about-btn:hover {
+  border: 2px solid #0691b4;
+  background-color: #0691b4;
+}
+
+/* about end */
+
+/* looking start */
+
+.looking {
+  padding-top: 150px;
+}
+
+.looking h1 {
+  padding-bottom: 68px;
+}
+
+.looking-2 {
+  padding-top: 132px;
+}
+
+.looking-header {
+  display: flex;
+}
+
+.looking-2 .text {
+  margin-left: 28px;
+}
+
+.text p {
+  font-size: 13px;
+}
+
+.lok {
+  background: #fafafa;
+  padding: 14px 43px;
+  margin-bottom: 20px;
+}
+
+.lok:hover {
+  border: 2px solid rgba(25, 188, 228, 0.2);
+}
+
+.looking-container:hover {
+  border: 2px solid #19bce4;
+  padding: 20px;
+}
+
+/* looking end */
+
+/* populars start */
+.populars {
+  padding-top: 120px;
+}
+
+.left-site {
+  padding-right: 30px;
+}
+
+.img-1 {
+  padding-bottom: 30px;
+}
+
+.img-padin {
+  margin-left: 30px;
+}
+
+/* populars end */
+
+/* choose start */
+
+.choose {
+  padding-top: 40px;
+}
+
+.row-lg {
+  padding-top: 113px;
+}
+
+.row-lg-1 {
+  padding-top: 20px;
+}
+
+.row-lg h1 p {
+  margin-bottom: 990px !important;
+}
+
+.choose-row:hover {
+  transition: 0.5s;
+  border: 3px solid #19bce4;
+  padding: 33px;
+}
+/* choose end */
+
+/* people start */
+
+.people {
+  padding-top: 120px;
+}
+
+/* people end */
+
+/* daily start */
+
+.daily {
+  padding-top: 248px;
+}
+
+.daily-container {
+  background-color: #19bce4;
+  border-radius: 24px;
+}
+
+.daily-container:hover {
+  border: 2px solid #19bce4;
+  background-color: #19bce4;
+}
+
+.daily-btn {
+  position: absolute;
+  padding: 11px 23px;
+  background-color: #19bce4;
+}
+
+.dailt-btn:hover {
+  border: 2px solid #19bce4;
+}
+
+.fr {
+  width: 720px;
+  height: 64px;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.daily-header {
+  padding: 48px 260px;
+}
+
+.daily-header h1 {
+  padding-bottom: 40px;
+}
+/* daily end */
+
+/* footer start */
+.footer {
+  padding-top: 120px;
+}
+/* footer end */
+
+/* media start */
+@media screen and (max-width: 1200px) {
+  .navbar-navition {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .location {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 10px;
+  }
+
+  .find-header {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 200px;
+    left: 13px;
+  }
+
+  .location-button {
+    padding-top: 10px;
+  }
+
+  .about {
+    padding-top: 400px;
+  }
+
+  .about-img:nth-child(1) {
+    padding-top: 20px;
+  }
+
+  .looking {
+    margin: 0;
+    padding: 0;
+  }
+
+  .looking-2 {
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  .looking-2 p {
+    font-size: 12px;
+  }
+
+  .site,
+  .left-site {
+    margin: 0 !important;
+    padding: 0 !important;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .right-site,
+  .right-img-1,
+  .right-img-2,
+  .img-padin,
+  .img-1,
+  .img-2,
+  .left-site {
+    margin: 0 !important;
+    padding-bottom: 10px !important;
+  }
+
+  .daily {
+    padding: 0;
+    margin: 0;
+  }
+
+  .daily-header {
+    font-size: 9px;
+    padding: 10px;
+    margin: 0;
+  }
+}
+/* media end */
