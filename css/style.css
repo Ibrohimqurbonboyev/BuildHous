@@ -241,7 +241,7 @@ body {
 /* footer end */
 
 /* media start */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   .navbar-navition {
     margin: 0;
     padding: 0;
@@ -319,6 +319,38 @@ body {
     font-size: 9px;
     padding: 10px;
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 1386px) {
+  .right-site {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .site {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .right-site,
+  .right-img-1,
+  .right-img-2,
+  .img-padin,
+  .img-1,
+  .img-2,
+  .left-site {
+    margin: 0 !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media screen and (max-width: 906px) {
+  .find-header {
+    text-align: center;
+    position: absolute;
+    right: 60px;
   }
 }
 /* media end */
