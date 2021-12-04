@@ -257,7 +257,7 @@ body {
   }
 
   .find-header {
-    font-size: 16px;
+    font-size: 13px;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -351,6 +351,11 @@ body {
     text-align: center;
     position: absolute;
     right: 60px;
+  }
+
+  .about-img-3 {
+    width: 70% !important;
+    height: 70px !important;
   }
 }
 /* media end */
