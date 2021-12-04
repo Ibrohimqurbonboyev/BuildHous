@@ -203,19 +203,10 @@ body {
   border-radius: 24px;
 }
 
-.daily-container:hover {
-  border: 2px solid #19bce4;
-  background-color: #19bce4;
-}
-
 .daily-btn {
   position: absolute;
   padding: 11px 23px;
   background-color: #19bce4;
-}
-
-.dailt-btn:hover {
-  border: 2px solid #19bce4;
 }
 
 .fr {
@@ -351,6 +342,27 @@ body {
     text-align: center;
     position: absolute;
     right: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .daily-header h1 {
+    font-size: 20px !important;
+  }
+
+  .fr {
+    width: 60% !important;
+  }
+
+  .daily {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 54px;
+    margin: auto;
   }
 }
 /* media end */
